@@ -37,7 +37,7 @@
 .menu-dropdown >li:hover{
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.2) ;
-  border-left: 3px solid #333;
+  border-left: 3px solid #048bc0;
   padding-left: 1rem;
   transition: padding 300ms ease-out;
 }
