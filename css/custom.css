@@ -263,6 +263,10 @@ header {
   justify-content: center;
   align-items: center;
 }
+.partners-holder {
+  width: 100px;
+  margin: auto;
+}
 
 /* footer styling */
 footer {
