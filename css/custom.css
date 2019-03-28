@@ -183,24 +183,25 @@ header {
 }
 
 .page-link-button {
-  border: 1px solid #333;
+  border: 2px solid #333;
   padding: 0.8rem 2rem;
   color: inherit;
   background-color: transparent;
   letter-spacing: 0.03em;
   font-weight: 500;
+  transition: color 0.2s ease-in;
 }
 .page-link-button:hover {
-  border-color: #fff;
+  border-color: #048bc0 !important;
   background-color: #048bc0;
-  color: #fff;
+  color: #fff!important;
 }
 
 .cards-section {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 4rem 6rem
+  padding: 2rem 0rem
 }
 .cards {
   display: flex;
@@ -209,21 +210,20 @@ header {
   flex: 1;
   flex-direction: column;
   min-height: 100px;
-  background-color: #fff;
-  margin-right: 5rem;
-  border-top: 3px solid #F3901D;
-  padding: 2rem 2.5rem;
-  box-shadow: 0 10px 6px -6px #777;
+  /* background-color: #fff; */
+  margin-right: 3rem;
+  /* border-top: 3px solid #F3901D; */
+  padding: 2rem 1rem;
+  /* box-shadow: 0 10px 6px -6px #777; */
 }
 .cards:last-child {
-
   margin-right: 0rem;
 }
 .icon-holder {
-  width: 80px;
+  width: 60px;
   height: 80px;
   border-radius: 100%;
-  border: 2px solid #F3901D;
+  /* border: 2px solid #F3901D; */
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -332,4 +332,28 @@ footer {
   flex-direction: column;
 }
 
-/*dropdown  */
+/* skew section */
+.skew-container {
+  position: relative;
+  min-height: 1000px;
+  overflow: hidden;
+}
+
+.skew-section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: linear-gradient(#ff9d2f, #ff6126); */
+  background-color: #dfe7ed;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+}
+
+.skew-content {
+  position: relative;
+  min-height: 100%;
+}
