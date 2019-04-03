@@ -19,15 +19,15 @@
 <body>
   <div class="top-section">
     <div class="overlay">
-      <header>
+      <header id="navBar">
         <div class="header-section">
-          <a href="#" class="main-logo">
+          <a href="index.html" class="main-logo">
             <img src="images/blustair_logo.png" alt="website logo">
           </a>
         </div>
-        <div class="header-section">
+        <div class="header-section navbarLinks" style="justify-content: flex-end">
           <ul class="nav-list">
-            <li class="dropdown-link"><a href="#" class="header-links "> Service</a>
+            <li class="dropdown-link"><a href="#" class="header-links "> Services</a>
                 <ul class="menu-dropdown">
                   <li><a href="#">Mobility solutions</a></li>
                   <li><a href="#">Custom App Development</a></li>
@@ -45,15 +45,36 @@
               </ul>
             </li>
             <li><a href="#" class="header-links "><i class="fa fa-search" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="header-links button-link">Contact</a></li>
+            <li><a href="contact.html" class="header-links button-link">Contact</a></li>
           </ul>
-          <!-- <a href="#" class="header-links">Services  </a>
-
-          <a href="#" class="header-links">Clients</a>
-          <a href="#" class="header-links">Company</a>
-          <a href="#" class="header-links"><i class="fa fa-search" aria-hidden="true"></i></a>
-          <a href="#" class="header-links button-link">Contact</a> -->
         </div>
+        <div class="header-section mobile-menu" style="justify-content: flex-end">
+          <div class="menu-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-section">
+            <ul>
+              <li>
+                <input type="text" placeholder="Search">
+              </li>
+              <li>
+                <a href="#"> Services</a>
+              </li>
+              <li>
+                <a href="#"> Clients</a>
+              </li>
+              <li>
+                <a href="#"> Company</a>
+              </li>
+              <li>
+                <a href="contact.html"> Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
       </header>
       <div class="main-section">
         <span class="upsale animated heartBeat" style="text-shadow: rgba(0, 0, 0, 0.55) 0px 0px 10px;">COMMITTED TO PEOPLE. COMMITTED TO PROCESS. </span>
@@ -83,50 +104,6 @@
       </p>
     </div>
   </div>
-  <!-- <div class="section standard-padding" style="background-color: #dfe7ed">
-    <h2 class="main-title" style="text-align: center; font-size: 2rem; margin:0.8rem 0; font-weight: 400; letter-spacing: 0.05em;">OUR SERVICES</h2>
-    <div class="line" style="width: 10%; text-align: center; align-self: center"></div>
-    <div class="cards-section">
-      <div class="cards">
-        <div class="icon-holder">
-          <i class="fa fa-code" aria-hidden="true"></i>
-        </div>
-        <h2 style="text-align: center; line-height: 100%; color: #6a757f; padding-top: 1rem">MOBILITY <br  /> SOLUTION</h2>
-      </div>
-      <div class="cards">
-        <div class="icon-holder">
-          <i class="fa fa-code" aria-hidden="true"></i>
-        </div>
-        <h2 style="text-align: center; line-height: 100%; color: #6a757f; padding-top: 1rem">CUSTOM APP DEVELOPMENT</h2>
-      </div>
-      <div class="cards">
-        <div class="icon-holder">
-          <i class="fa fa-code" aria-hidden="true"></i>
-        </div>
-        <h2 style="text-align: center; line-height: 100%; color: #6a757f; padding-top: 1rem">TECHNOLOGY TRAINING</h2>
-      </div>
-    </div>
-    <div class="cards-section">
-      <div class="cards">
-        <div class="icon-holder">
-          <i class="fa fa-code" aria-hidden="true"></i>
-        </div>
-        <h2 style="text-align: center; line-height: 100%; color: #6a757f; padding-top: 1rem">PROJECT MANAGEMENT</h2>
-      </div>
-      <div class="cards">
-        <div class="icon-holder">
-          <i class="fa fa-code" aria-hidden="true"></i>
-        </div>
-        <h2 style="text-align: center; line-height: 100%; color: #6a757f; padding-top: 1rem">REVENUE ASSURANCE</h2>
-      </div>
-      <div class="cards">
-        <div class="icon-holder">
-          <i class="fa fa-code" aria-hidden="true"></i>
-        </div>
-        <h2 style="text-align: center; line-height: 100%; color: #6a757f; padding-top: 1rem">IT  INFRASTRUCTURE AND DEPLOYMENT</h2>
-      </div>
-    </div>
-  </div> -->
   <div class="section standard-padding centered-div" style="background-color: #dfe7ed; padding-bottom: 3rem">
     <h2 class="main-title" style="text-align: center; font-size: 2rem; margin:0.8rem 0; font-weight: 400; letter-spacing: 0.05em;">OUR SERVICES</h2>
     <div class="line" style="width: 10%; text-align: center; align-self: center"></div>
@@ -191,99 +168,8 @@
     <a href="#" class="page-link-button" style="margin-top: 0.5rem; border-color: #535353; color: #535353">Learn More</a>
   </div>
 
-  <!-- <div class="skew-container">
-    <div class="skew-section"></div>
-    <div class="skew-content standard-padding">
-      <div class="section centered-div" style="background-color: transparent">
-        <h2 class="main-title" style="text-align: center; font-size: 2rem; margin:0.8rem 0; font-weight: 400; letter-spacing: 0.05em;">OUR SERVICES</h2>
-        <div class="line" style="width: 10%; text-align: center; align-self: center"></div>
-        <div class="cards-section" style="padding-top:3rem">
-          <div class="cards">
-            <div class="icon-holder" style="width: 75px;">
-              <img src="images/mobile.svg" alt="">
-            </div>
-            <h2 style="text-align: center; line-height: 100%; color: #535353; font-weight: 400; font-size: 1.1rem; margin: 0.5rem 0; ">MOBILITY SOLUTION</h2>
-              <p style="font-size: 1rem; text-align: center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-          </div>
-          <div class="cards">
-            <div class="icon-holder">
-              <img src="images/code.svg" alt="">
-            </div>
-            <h2 style="text-align: center; line-height: 100%; color: #535353; font-weight: 400; font-size: 1.1rem; margin: 0.5rem 0 ">CUSTOM APP DEVELOPMENT</h2>
-              <p style="font-size: 1rem; text-align: center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-          </div>
-          <div class="cards">
-            <div class="icon-holder">
-              <img src="images/training.svg" alt="">
-            </div>
-            <h2 style="text-align: center; line-height: 100%; color: #535353; font-weight: 400; font-size: 1.1rem; margin: 0.5rem 0 ">TECHNOLOGY TRAINING</h2>
-              <p style="font-size: 1rem; text-align: center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-          </div>
-        </div>
-        <div class="cards-section">
-          <div class="cards">
-            <div class="icon-holder">
-              <img src="images/management.svg" alt="">
-            </div>
-            <h2 style="text-align: center; line-height: 100%; color: #535353; font-weight: 400; font-size: 1.1rem; margin: 0.5rem 0 ">PROJECT MANAGEMENT</h2>
-              <p style="font-size: 1rem; text-align: center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-          </div>
-          <div class="cards">
-            <div class="icon-holder" style="width: 75px;">
-              <img src="images/revenue.svg" alt="">
-            </div>
-            <h2 style="text-align: center; line-height: 100%; color: #535353; font-weight: 400; font-size: 1.1rem; margin: 0.5rem 0; ">REVENUE ASSURANCE</h2>
-              <p style="font-size: 1rem; text-align: center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-          </div>
-          <div class="cards">
-            <div class="icon-holder">
-              <img src="images/Infrastructure.svg" alt="">
-            </div>
-            <h2 style="text-align: center; line-height: 100%; color: #535353; font-weight: 400; font-size: 1.1rem; margin: 0.5rem 0 ">IT  INFRASTRUCTURE AND DEPLOYMENT</h2>
-              <p style="font-size: 1rem; text-align: center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-          </div>
-        </div>
-        <a href="#" class="page-link-button" style="margin-top: 0.5rem; border-color: #535353; color: #535353">Learn More</a>
-      </div>
-    </div>
-  </div> -->
 
-  <!-- <div class="section-row standard-padding" style="min-height: 300px">
-    <div class="section centered-div" style="align-items: flex-start">
-      <h2 class="main-title" style="font-size: 1.5rem; margin: 0.3rem 0; font-weight: 500; letter-spacing: 0;">CULTIVATING ONGOING SUCCESS</h2>
-      <P style=" font-size: 1.1rem">As your partner..... we are there every step of the way</P>
-      <div style="margin: 1rem 0"><a href="#" class="page-link-button" style="margin-top: 0.5rem"> Learn More</a></div>
-
-    </div>
-    <div class="section-row centered-div">
-      <div class="icon-holder" style="margin-right: 5rem;">
-        <i class="fa fa-code" aria-hidden="true"></i>
-      </div>
-      <div class="icon-holder" style="margin-right: 5rem;">
-        <i class="fa fa-code" aria-hidden="true"></i>
-      </div>
-      <div class="icon-holder" style="margin-right: 5rem;">
-        <i class="fa fa-code" aria-hidden="true"></i>
-      </div>
-      <div class="icon-holder">
-        <i class="fa fa-code" aria-hidden="true"></i>
-      </div>
-    </div>
-  </div> -->
-
-  <div class="section-row standard-padding with-image" style="background-image: url('images/banner1.jpg'); position: relative; min-height: 500px; color: #fff">
+  <!-- <div class="section-row standard-padding with-image" style="background-image: url('images/banner1.jpg'); position: relative; min-height: 500px; color: #fff">
     <div class="overlay standard-padding" style="padding-top: 5rem; padding-bottom: 5rem">
       <div class="section" style="background-color: transparent">
         <div class="box">
@@ -320,15 +206,6 @@
                       </div>
                   </div>
               </div>
-              <!-- <div class="owl-nav">
-                  <div class="owl-prev">prev</div>
-                  <div class="owl-next">next</div>
-              </div>
-              <div class="owl-dots">
-                  <div class="owl-dot active"><span></span></div>
-                  <div class="owl-dot"><span></span></div>
-                  <div class="owl-dot"><span></span></div>
-              </div> -->
             </div>
           </div>
           <div class="quote-icon-right"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
@@ -336,7 +213,8 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
+
   <div class="section-row standard-padding" style="background-color: #fff; justify-content: space-between">
     <div class="partners-holder">
       <img src="images/senbox.png" alt="">
@@ -367,18 +245,16 @@
           next level of operational efficiency.
         </p>
       </div>
-      <div class="vertical-line"></div>
       <div class="section centered-div" style="background-color: transparent">
-        <ul class="footer-list ">
+        <ul class="footer-list">
           <li><a href="#">Services</a></li>
           <li><a href="#">Clients</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Our Team</a></li>
         </ul>
       </div>
-      <div class="vertical-line"></div>
       <div class="section footer-padding" style="background-color: transparent">
-        <div style="margin: 1rem 0"><a href="#" class="page-link-button" style="margin-top: 0.5rem"> Contact Us</a></div>
+        <div style="margin: 1rem 0; border-color: #fff;"><a href="#" class="page-link-button" style="margin-top: 0.5rem; border-color: #fff;"> Contact Us</a></div>
         <p>Incase of any questions or if you would like to get intouch with us send us a message by clicking the above link.</p>
         <div class="section-row" style="background-color: transparent; align-items: flex-end; min-height: 50px">
           <div class="social-section">
