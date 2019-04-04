@@ -304,7 +304,7 @@ header {
 }
 .menu-section ul li input {
   height: 75%;
-    width: 100%;
+    width: 80%;
     border: 1px solid #ddd;
     background-color: #fff;
     padding: 0 1rem;
@@ -377,12 +377,13 @@ header {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  flex-wrap: wrap;
+
 }
 @media only screen and (max-width: 600px) {
   .section-row {
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
  }
 
@@ -507,11 +508,25 @@ footer {
   background-color: #20343c;
   color: #fff;
 }
+.footer-button {
+  margin: 1rem 0;
+  border-color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .footer-button {
+    text-align: center;
+  }
+ }
 .footer-logo {
   width: 150px;
 }
+@media only screen and (max-width: 600px) {
+  .footer-logo {
+    margin: auto;
+  }
+}
 .footer-padding {
-  padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+  padding: 2.5rem 0rem 1.5rem 0rem;
 }
 @media only screen and (max-width: 600px) {
   .footer-padding {

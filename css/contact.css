@@ -13,6 +13,12 @@ form {
   margin-bottom: 1rem;
   min-height: 45px;
 }
+@media only screen and (max-width: 600px) {
+  .field-row  {
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+  }
+ }
 .form-group {
   display: flex;
   justify-content: flex-start;
@@ -23,12 +29,32 @@ form {
 .form-group:last-child {
   margin-right: 0;
 }
+@media only screen and (max-width: 600px) {
+  .form-group  {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+ }
 .label {
   font-size: 0.8rem;
   font-weight: 300;
   text-transform: uppercase;
   margin: 0.3rem 0;
 }
+@media only screen and (max-width: 600px) {
+  .label  {
+    display: none;
+  }
+ }
+.form-section {
+  width: 80%;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .form-section  {
+    width: 100%;
+  }
+ }
 /* .label::before {
   content: "*"
   color: red;
@@ -55,3 +81,12 @@ form {
   border: 1px solid #048bc0;
   color: #fff;
 }
+.location-icon {
+  font-size: 10rem;
+  margin: 3rem 0 1rem 0;
+}
+@media only screen and (max-width: 600px) {
+  .location-icon  {
+    font-size: 7rem;
+  }
+ }
